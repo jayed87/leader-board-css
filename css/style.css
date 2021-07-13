@@ -1,0 +1,130 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* utilities or common style */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Top Section */
+.section-title{
+    font-size: 24px;
+    color: #562EFF;
+    margin-top: 3px;
+}
+.container{
+    background-color: white;
+    width: 870px;
+    padding: 33px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.top-players{
+    margin-bottom: 30px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 28px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player h3{
+    margin-left: 16px;
+    font-size: 18px;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+}
+/* Top blogs */
+.top-blogs{
+    margin-top: 30px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+    grid-column-gap: 46px;
+}
+.blog{
+    display: flex;
+}
+.thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+.author-details{
+    margin-left: 16px;
+}
+.author-title{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+.author-name{
+    font-size: 16px;
+    color: #9F9F9F;
+    margin-top: 0px;
+}
+.author-name a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #562EFF;
+}
+
+/*-------------
+latest courses style
+--------------*/
+.courses{
+    display: flex;
+    justify-content: space-evenly;
+}
+.course{
+    Width: 226.42px;
+    Height: 269.79px;
+    box-shadow: 2px 2px 2px 5px rgb(0 0 0 / 4%);
+    border-radius: 20px;
+    padding: 13px;
+}
+.course-banner img{
+    width: 224px;
+    height: 104px;
+}
+.course-author{
+    color: #ED6B4F;
+    font-size: 15px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+}
+.course-info p{
+    margin: 0 21px 0 10px;
+    color: #A2A2A2;
+    font-size: 15px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.course-time{
+    font-size: 14.6913px;
+    Width: 94.83px;
+    Height: 29.38px;
+    background: #FFE4E8;
+    border-radius: 14.6913px;
+    text-align: center;
+    padding-top: 6px;
+}
